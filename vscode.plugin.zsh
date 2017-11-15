@@ -8,10 +8,10 @@ alias vscode='code'
 function code {
     if [[ $# = 0 ]]
     then
-        open_command -a "Visual Studio Code"
+        open -a "Visual Studio Code"
     else
         local argPath="$1"
         [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
-        open_command -a "Visual Studio Code" "$argPath"
+        open -a "Visual Studio Code" "$argPath"
     fi
 }
