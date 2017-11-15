@@ -1,10 +1,17 @@
 ## Visual Studio Code
 
-Plugin for Visual Studio Code, a text editor for Mac OS X, Windows, and Linux 
+Plugin for Visual Studio Code, a text editor for Mac OS X, Windows, and Linux.
+Tested in `OSX` using `antigen`.
 
 ### Requirements
 
  * [Visual Studio Code](https://code.visualstudio.com)
+ 
+### Installation
+ If you are using [antigen](https://github.com/zsh-users/antigen)
+ ```
+ antigen bundle c-castillo/zsh-plugin-vscode
+ ```
  
 ### Usage
 
